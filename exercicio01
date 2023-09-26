@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Exercicio01 {
+    public static void main(){
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Informe x: ");
+        int x = scanner.nextInt();
+        
+        System.out.println("Informe y: ");
+        int y = scanner.nextInt();
+        
+        if(x>y){
+            System.out.println(x+" é maior do que "+y);
+            
+        }else if(y>x){
+            System.out.println(y+" é maior do que "+x);
+        }
+        
+    }    
+}    
