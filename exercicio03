@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Exercicio03{
+    public static void main (){
+        Scanner scanner= new Scanner(System.in);
+        
+        System.out.println("Digite a temperatura em graus Celsius:");
+        int x = scanner.nextInt();
+     
+
+        if(x<=18){
+            System.out.println(" O clima está frio!");
+        }else if(x>=19 && x<=23){
+            System.out.println(" O clima está neutro! ");
+            }
+            else if(x>=24 && x<=35){
+            System.out.println(" O clima está quente!");
+        }
+            
+        }
+    }
